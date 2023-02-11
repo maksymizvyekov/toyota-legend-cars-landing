@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: block;
+    background-image: url("..\\Images\\001.jpg");
+    
+}
+img{
+    transition-duration: 400ms;
+    display:inline-block;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+figure{
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+h3{
+    font-size:80px;
+}
+
+p {
+    margin: 5px auto;
+}
+
+ul li{
+    text-decoration: none;
+    margin: 5px;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    margin: 10px 10px;
+}
+.site-head{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("..\\Images\\002.jpg");
+}
+.toyota-logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+.navigation-head{
+    display: inline-block;
+}
+.navigation-head-item{
+    padding-left: 30px;
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    text-shadow: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+}
+.choosed-car{
+    color: aquamarine;
+}
+.main-content{
+    margin-top: 30px;
+    color: rgb(206, 206, 206); 
+    padding: 10px;
+    display:block;
+    margin-left:10%;
+    width: 80%;
+    height: 90vh;
+}
+.main-content-item{
+    padding:10px 10px;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.293);
+}
+.engine-photo{
+    border:black solid 5px;
+    border-radius: 40px;
+}
+.hiden{
+    display:none;
+}
